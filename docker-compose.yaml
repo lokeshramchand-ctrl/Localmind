@@ -12,14 +12,8 @@ services:
     deploy:
       resources:
         limits:
-          memory: 6g   # safe for 8GB machines
-    healthcheck:
-      test: ["CMD", "ollama", "list"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
+          memory: 6g
 
-      
   localmind:
     build: .
     container_name: localmind
@@ -32,7 +26,6 @@ services:
       - OLLAMA_URL=http://ollama:11434
     command: python main.py
     restart: unless-stopped
-
 
 volumes:
   ollama_models:
