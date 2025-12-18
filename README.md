@@ -1,3 +1,4 @@
+![Profile Picture](/assets/banner.png)
 
 ---
 
