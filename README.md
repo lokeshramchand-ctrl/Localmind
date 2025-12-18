@@ -1,7 +1,7 @@
 
 ---
 
-#  LocalMind
+#  OnDevice
 
 **A Privacy-First, Fully Local AI Copilot for Meetings & Learning**
 
